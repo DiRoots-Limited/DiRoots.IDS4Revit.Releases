@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Selection Tab
+title: IDS4Revit
 parent: IDS4Revit User Guide
 nav_order: 1
 ---
