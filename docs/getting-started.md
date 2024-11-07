@@ -7,7 +7,7 @@ nav_order: 2
 # Getting Started
 {: .no_toc }
 
-ProSheets is 100% free for personal and commercial usage, regardless of the number of users. 
+IDS4Revit is 100% free for personal and commercial usage, regardless of the number of users. 
 Not permitted:
 -	Sell/resell
 -	make modifications to the software.
@@ -23,60 +23,50 @@ Not permitted:
 
 ## Download
 
-Download the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
+Download the [latest version of IDS4Revit]().
 
 
 ## Install
 
 ### Compatibility
 - Windows 7, 8, 10 and 11.
-- Revit 2017, 2018, 2019, 2020, 2021, 2022 and 2023.
-
-### Prerequisites
-- Admin permissions.
-- PDF24 (the compatible version will be automatically installed. Dont't do it manually).
-
-```yaml
-# Remarks
-- the installation is done per-machine
-- %ProgramData%\Autodesk\Revit\Addins\
-```
+- Revit 2022, 2023, 2024 and 2025.
 
 ### Standard Installation
 
 ```yaml
-This method is ideal for individuals with admin permissions who want to install ProSheets in one computer.
+This method is ideal for individuals with admin permissions who want to install IDS4Revit in one computer.
 ```
 
-1. Run ProSheets installer.
+1. Run IDS4Revit installer.
 
 2. Select the Revit versions and click 'Install'.
 
-![ProSheets Installation First Step](../assets\images\PS-Install.gif)
+![IDS4Revit Installation First Step](../)
 
 3 . Wait for the installation to complete and click 'Finish'.
 
-![ProSheets Installation Finish](../assets\images\PS-Complete.png)
+![IDS4Revit Installation Finish](../)
 
 4. Restart your computer. Don't Skip this step.
 
 ### Silent Installation
 
 ```yaml
-This method is ideal for IT administrators who want to deploy ProSheets to multiple computers.
+This method is ideal for IT administrators who want to deploy IDS4Revit to multiple computers.
 ```
 
 - Install for all compatible Revit versions.
 
 ```yaml
-# This method will silently install ProSheets for all compatible Revit versions.
+# This method will silently install IDS4Revit for all compatible Revit versions.
 <installer-name>.exe /i // /qn accept_eula=1
 ```
 
 - Exclude specific Revit versions.
 
 ```yaml
-# In this example ProSheets will NOT be installed for Revit 2017, 2018, and 2019.
+# In this example IDS4Revit will NOT be installed for Revit 2017, 2018, and 2019.
 <installer-name>.exe /i // /qn accept_eula=1 revit2017="" revit2018="" revit2019=""
 ```
 
@@ -84,25 +74,20 @@ This method is ideal for IT administrators who want to deploy ProSheets to multi
 
 ### Using the installer User Interface
 
-1. Run ProSheets installer.
+1. Run IDS4Revit installer.
 
 2. Select and click 'Remove'.
 
-![ProSheets Uninstall](../assets\images\PS-Remove.gif)
+![IDS4Revit Uninstall](../)
 
 3 . Wait for the uninstallation to complete and click 'Finish'.
 
-```yaml
-# Remarks.
-PDF24 shipped with ProSheets won't be uninstalled. If you want to remove it, uninstall it manually.
-```
-
 ### Using the installer silently
 
-Uninstall ProSheets without user interaction.
+Uninstall IDS4Revit without user interaction.
 
 ```yaml
-# This method will remove ProSheets from your computer.
+# This method will remove IDS4Revit from your computer.
 <installer-name>.exe /x // /qn
 ```
 
@@ -116,12 +101,12 @@ Uninstall ProSheets without user interaction.
 
 ## Updates
 
-ProSheets includes an updater to help you keep it up to date. 
+IDS4Revit includes an updater to help you keep it up to date. 
 The updater will:
 - notify you whenever a new version is released (the action is triggered on Revit close event).
 - ask you to install now or to remind you tomorrow.
 
-![ProSheets Updater UI](../assets/images/updater-default.png)
+![IDS4Revit Updater UI]()
 
 ### Updater Settings
 
@@ -143,7 +128,7 @@ By default the automatic updates can't be disabled.
 To go around it, there's a configuration file that can be tweaked.
 
 # Steps required
-- go to %programdata%\DiRoots.ProSheets\Settings
+- go to %programdata%\DiRoots.IDS4Revit\Settings
 - open the 'updater.ini' file
 - Search for the line 'CheckFrequency=2' and change the value to 365, for example.
 

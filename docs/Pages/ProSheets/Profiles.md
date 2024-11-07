@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Profiles
-parent: ProSheets User Guide
+parent: IDS4Revit User Guide
 nav_order: 4
 ---
 
@@ -24,16 +24,16 @@ The following settings are saved in the profiles.
 
 ## Creating Profiles
 
-ProSheets profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules (e.g., filename conventions) and share them across the organization.
+IDS4Revit profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules (e.g., filename conventions) and share them across the organization.
 
 Steps:
 1. In the window header, click on the plus (+) button next to the profiles list.
 2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
-3. Choose if you want to create a profile with the default ProSheets settings, with your current settings, or import settings from an existing profile.
+3. Choose if you want to create a profile with the default IDS4Revit settings, with your current settings, or import settings from an existing profile.
 4. Click on the "Create" button to create the profile.
 
-![ProSheets Creating profiles](../../assets/images/GIFs/Profiles/PS-Create-Profiles.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+![IDS4Revit Creating profiles](../../assets/images/GIFs/Profiles/PS-Create-Profiles.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-IDS4Revit/).</sub>
 
 ```
 Tip for BIM Managers!  
@@ -46,19 +46,19 @@ See the "Importing Profiles" section to teach users how to pull profiles from a 
 
 Once you have saved your profiles with the necessary practice settings, you can also add this profile as default to all teams. Follow the steps:
 
-1. Create a profile into ProSheets.
-2. Open the following location path %localappdata%\DiRoots\ProSheets\Profiles.
+1. Create a profile into IDS4Revit.
+2. Open the following location path %localappdata%\DiRoots\IDS4Revit\Profiles.
 3. Copy the Profile file from the current location.
 4. Replace it on all users' machines.
 
 The profile will now be immediately visible to users.
 
-![ProSheets default profile](../../assets\images\GIFs\Profiles\thumbnail_image014.png)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+![IDS4Revit default profile](../../assets\images\GIFs\Profiles\thumbnail_image014.png)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-IDS4Revit/).</sub>
 
 ## Importing Profiles
 
-ProSheets profiles make it easy to import existing profiles to stay compliant with your company standards (e.g., profiles in a network location).
+IDS4Revit profiles make it easy to import existing profiles to stay compliant with your company standards (e.g., profiles in a network location).
 
 Steps:
 1. In the window header, click on the plus (+) button next to the profiles list.
@@ -67,8 +67,8 @@ Steps:
 4. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
 5. Click on the "Create" button to create the profile.
 
-![ProSheets Importing profiles](../../assets/images/GIFs/Profiles/PS-Import-Profiles.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+![IDS4Revit Importing profiles](../../assets/images/GIFs/Profiles/PS-Import-Profiles.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-IDS4Revit/).</sub>
 
 ## Deleting Profiles
 
@@ -77,4 +77,4 @@ Steps:
 2. Click on the dustbin icon next to the profiles list.
 3. Confirm.
 
-![ProSheets Deleting profiles](../../assets/images/PS-delete-profiles.png)  
+![IDS4Revit Deleting profiles](../../assets/images/PS-delete-profiles.png)  

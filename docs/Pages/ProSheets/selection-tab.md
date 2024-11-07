@@ -1,13 +1,21 @@
 ---
 layout: default
 title: Selection Tab
-parent: ProSheets User Guide
+parent: IDS4Revit User Guide
 nav_order: 1
 ---
 
-# Selection Tab
+# General Guide
 {: .no_toc }
-The Selection tab is where you'll select the sheets and views to be exported and the file naming rules. ProSheets has options to sort, filter, and search to ease the selection. Plus, it has an advanced naming rule builder that allows you to customize the filenames.
+
+The plugin button is located in the DiRootsOne tab, next to IDS4Revit, providing access to the main functions via three tabs:
+- Entity Inspector Tab: Allows users to find elements based on the IDS file.
+- Map Parameters Tab: Helps users map the data origin to the required IDS data.
+- Property Inspector Tab: Allows users to check and inspect property restrictions based on the IDS file.
+
+![IDS4Revit Open](../../../assets\images\GIFs\2.0-IDS4Revit-Open.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
+
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -16,130 +24,70 @@ The Selection tab is where you'll select the sheets and views to be exported and
 
 ---
 
-## Select Sheets and Views or View/Sheet Sets
+## Selecting the IDS file
 
-The first step is to select the sheets and views to be exported.  
+In the main window, the user can select the IDS file. We offer support for IDS versions 1.0 and above. If the selected file does not conform to the correct IDS schema definition, an error message will be triggered, and the IDS file will not be loaded.
 
-Steps:
+![IDS4Revit Select IDS](../../../assets\images\GIFs\2.1-IDS4Revit-SelectIDS.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
-1. Click radio buttons to switch between sheets and views. fsdfsdfs
+### Inspecting IDS file entities
 
-```yaml
-The 'Sheets' radio button will show the existing sheets in the project.  
-The 'Views' radio button will show the existing views in the project.  
-```
+The Inspector tab displays the IFC entities required based on the IDS specifications. The user interface will show the Revit elements related to these entities and will count them for the currently selected scope of elements—either the entire model or the active view.
+If there are IDS requirements on the number of elements needed on the result IFC file, the application will display a red cell on the UI and will trigger a message if the exportation doesn’t meet the criteria. 
 
-2. Use the checkboxes to select specific sheets/views or use the checkbox in the table header to select all sheets/views.
+Users can inspect elements in Revit by selecting, isolating, or creating a section box of the elements using the provided buttons. If IDS requirements specify a particular number of elements for the exported IFC file, a red cell will display in the UI, accompanied by a message if the export criteria are not met.
 
-![ProSheets Selecting Revit Sheets and Views](../../assets\images\GIFs\Selection\PS-RadioButton.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+![IDS4Revit Inspect Object](../../../assets\images\GIFs\2.2-IDS4Revit-InspectObject.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
-3. Select the "Opened Sheets/Views Only" option to filter only the list of open sheets and views.
+### Mapping the properties
 
-![ProSheets Opened Sheets/Views only](../../assets\images\GIFs\Selection\PS-OpenedSheets.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+The Map Parameters tab enables users to easily map user-defined properties and predefined IfcProperties from the IDS file to Revit parameters.~
 
----
+- Mapping Custom Properties: Users can associate Revit parameters with the selected IDS properties, allowing seamless data mapping.
+- Mapping Predefined IFC Properties: For the predefined IfcProperties from the IFC schema, the user interface displays these properties with the ‘Pset_’ suffix. Only Revit parameters compatible with the type are displayed for mapping. For these IfcProperties, users can set default mappings by using the button next to the Parameter column, as some IfcProperties have pre-mapped Revit parameters.
 
-### Add Parameters columns
+![IDS4Revit Map Properties](../../../assets\images\GIFs\2.3-IDS4Revit-MapProperties.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
-Right-click on the table header to select any other instance parameter available on your sheets. Examples - Current Review Date, Approved By, Appears on Sheet List, etc. 
+### Inspecting IDS file properties
 
-![ProSheets Sorting Revit Sheets and Views and right-click](../../assets\images\GIFs\Selection\PS-RightClick.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+The property inspector tab will display the property entities with restrictions based on the IDS specifications after the properties are mapped.
 
+![IDS4Revit Inspect Properties](../../../assets\images\GIFs\2.4-IDS4Revit-InspectProperties.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
-### Filter
+If the property restriction does not comply with the scope of elements, the user interface will display a red background on the restriction status column. 
 
-Filtering options available:
+The user can inspect the elements in Revit by selecting, isolating, or creating a section box with the related buttons.
 
-1. Dropdown to filter by view type (e.g., 3D, Floor Plan, Section, Detail, etc.).
+![IDS4Revit Select, Isolate and Section Box](../../../assets\images\GIFs\2.4b-IDS4Revit-Select,Isolate,SectionBox.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
-![ProSheets Filter by View Type](../../assets\images\GIFs\Selection\PS-FilterViewTypes.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+### Exporting to IFC (IDS-based IFC exporter)
 
-2.  Select several sheets/views and save new sets for filtering.
+BuildingSmart defines IDS as a set of outlined specifications that are expected to be in the IFC file. The tool helps users export models to IFC based on these IDS requirements, specifically supporting data mapping for property facets and entity identification. Additional facets are not covered at this stage, and DiRoots IDS4Revit exporter does not guarantee full compliance with the IDS requirements as it uses the same Revit IFC exporter.
 
-![ProSheets Save Sets](../../assets\images\GIFs\Selection\PS-Sets.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+#### Selecting additional configuration
 
-### Search
+The tool allows users to customize multiple IFC settings based on their requirements. Users can use their different IFC export setups as a base, applying the additional configurations on top of the existing IFC export setup.
 
-The search box will search for text contained in any of the existing columns (including the customizable column).  
-  
----
+![IDS4Revit Select IFC configuration](../../../assets\images\GIFs\2.5.1-IDS4Revit-SelectIFCconfig.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
-For example, you can find Sheets by:
-- Sheet Number
-- Sheet Name
-- Revision
-- Size (e.g., A1, A0, etc.)
-- Any instance parameter available in the customizable column
-- Custom filename
+#### Exportation process
+
+After setting up configurations and additional parameters, users can export either the active view or the entire model based on their selection. The IDS4Revit exporter tool utilizes Revit’s standard IFC exporter for the export process.
+
+![IDS4Revit Export to IFC](../../../assets\images\GIFs\2.5.2-IDS4Revit-ExportToIFC.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
 ---
 
-For example, you can find Views by:
-- View Name
-- Scale
-- Detail Level
-- Discipline
-- Custom filename
+### Sample Cases
 
-![ProSheets Searching for Revit Sheets and Views](../../assets\images\GIFs\Selection\PS-Search.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+DiRoots provides sample IDS files that support IFC versions IFC 2x3, IFC 4, and IFC 4x3 ADD2. If no IDS file is loaded, users can select a sample file from the interface. These samples can be used for reference to better understand how the tool works.
 
----
-
-## Custom File Name
-
-The custom file name builder allows you to quickly set how you want your files to be named.
-
-Main features:
-- Parametric filenaming (using Sheet/View and Project Information parameters)
-- Set generic field separator (e.g., SheetName-ShetNumber)
-- Set custom fields Separators (e.g., SheetName-ShetNumber_Rev1)
-- Custom static fields  (e.g., SheetName-ShetNumber-MyStaticField)
-- Other non-Revit parameters (e.g., Current Month, Day, Hour, etc.)
-
-![ProSheets building a custom filename with Revit parameters and custom parameters](../../assets\images\GIFs\Selection\PS-FileName.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
-
----
-
-## Clear selection
-
-Quickly clear the current selection.
-
----
-
-## Advanced Settings
-
-Set some advanced settings as defaults for your prints, using the radio button to set the desired setting.
-
-1. Temporary Hide/Isolate
-
-- Turn off the temporary Hide/Isolate mode before printing
-- Leave the temporary Hide/Isolate mode and print
-
-2. Worksharing Display
-
-- Turn off the Worksharing Display mode before printing
-- Leave the Worksharing Display mode on and print
-
-3. Reveal Hidden elements
-
-- Turn off the Reveal Hidden Elements mode before printing
-- Leave the Reveal Hidden Elements mode on and print
-
-4. Reveal Constraints
-
-- Turn off the Reveal Constraints mode before printing
-- Leave the Reveal Constrains mode on and print
-
-![ProSheets Advanced Settings](../../assets\images\GIFs\Selection\PS-AdvancedSettings.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
-
----
-
-Let's move on to the next step. After selecting the sheets/views you want, click on "Next" to go to the print format settings.
+![IDS4Revit Sample Cases](../../../assets\images\GIFs\2.7-IDS4Revit-SampleCases.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
