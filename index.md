@@ -2,36 +2,26 @@
 layout: default
 title: About
 nav_order: 1
-description: "ProSheets User Guide."
+description: "IDS4Revit User Guide."
 permalink: /
 ---
 
-# ProSheets | Autodesk Revit Plugin.
+# IDS4Revit | Autodesk Revit Plugin.
 
-![ProSheets Logo](/assets/images/ProSheets-Icon-150x150-1.png)
+![IDS4Revit Logo]()
 
-ProSheets is a free Autodesk Revit Add-in to export Views and Sheets to PDF, DWG, DGN, DWF, NWC, IFC, and IMG (JPEG, PNG, TIFF).
-
-## Core Features
-
-- Batch Export Sheets/Views to PDF, DWG, DGN, DWF, NWC, IFC, and IMG (JPEG, PNG, TIFF)
-- Auto dectection of paper size and orientation (based on the Title Block family Sheet Width and Height)
-- Custom Parametric Filename (e.g., Sheet Name + Sheet Number + Revision Number). Plus: custom parameters and separators.
-- Save the export settings to Profiles
-- Import Profiles from a any location (e.g., shared folder, network location, etc.)
-
-[Download](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/){: .btn .btn-di-orange }
-
----
-
-# DocRegister | Autodesk Revit Plugin.
-
-![DocRegister Logo]()
-
-ProSheets is a free Autodesk Revit Add-in to export Views and Sheets to PDF, DWG, DGN, DWF, NWC, IFC, and IMG (JPEG, PNG, TIFF).
+The IDS4Revit tool simplifies the work with IDS files and helps Revit users fulfill their IDS-based requirements. Additionally, helps users in the IFC export process, eliminating the need for complex, time-consuming, and error-prone manual configurations. It allows users to effortlessly inspect the required IFC entities and property restrictions based on the IDS file and configure IDS requirements to map the necessary IFC data, facilitating an efficient export workflow. This tool is essential for users who need to streamline their IDS-based work and facilitate easy data work.
 
 ## Core Features
 
-- 
+- IDS-based Entities Object Inspector: Enables users to inspect entities required by the IDS file within Revit.
+- Custom Property and Psets Property Mapping: Allows users to map custom properties directly within Revit.
+- IDS-based properties inspector in Revit. Allow users to check and inspect the property restrictions required by the IDS file within Revit.
+- IDS-based IFC Export:  IFC exporter focused on complying with the IDS requirements.
 
-[Download](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/){: .btn .btn-di-orange }
+## Abbreviations
+
+The following abbreviations are used in the documentation. These definitions are defined by buildingSmart International:
+
+- IFC: Industry Foundation Classes
+- IDS: Information Delivery Specification
