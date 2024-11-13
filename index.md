@@ -8,7 +8,7 @@ permalink: /
 
 # IDS4Revit | Autodesk Revit Plugin.
 
-![IDS4Revit Logo]()
+![IDS4Revit Logo](assets\images\GIFs\DiRoots-IDS4Revit_x150.png)
 
 The IDS4Revit tool simplifies the work with IDS files and helps Revit users fulfill their IDS-based requirements. Additionally, helps users in the IFC export process, eliminating the need for complex, time-consuming, and error-prone manual configurations. It allows users to effortlessly inspect the required IFC entities and property restrictions based on the IDS file and configure IDS requirements to map the necessary IFC data, facilitating an efficient export workflow. This tool is essential for users who need to streamline their IDS-based work and facilitate easy data work.
 

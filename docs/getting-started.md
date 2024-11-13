@@ -42,11 +42,11 @@ This method is ideal for individuals with admin permissions who want to install 
 
 2. Select the Revit versions and click 'Install'.
 
-![IDS4Revit Installation First Step](../)
+![IDS4Revit Installation First Step](../assets\images\GIFs\IDS-Install.gif)
 
 3 . Wait for the installation to complete and click 'Finish'.
 
-![IDS4Revit Installation Finish](../)
+![IDS4Revit Installation Finish](../assets\images\GIFs\IDS-InstallationComplete.png)
 
 4. Restart your computer. Don't Skip this step.
 
@@ -78,7 +78,7 @@ This method is ideal for IT administrators who want to deploy IDS4Revit to multi
 
 2. Select and click 'Remove'.
 
-![IDS4Revit Uninstall](../)
+![IDS4Revit Uninstall](../assets\images\GIFs\IDS-RemoveInstall.png)
 
 3 . Wait for the uninstallation to complete and click 'Finish'.
 
@@ -106,7 +106,7 @@ The updater will:
 - notify you whenever a new version is released (the action is triggered on Revit close event).
 - ask you to install now or to remind you tomorrow.
 
-![IDS4Revit Updater UI]()
+![IDS4Revit Update](../assets\images\GIFs\IDS-Update.png)
 
 ### Updater Settings
 
