@@ -9,7 +9,7 @@ IDS4Revit is an Autodesk Revit plugin that simplifies the work with IDS files. I
 - IDS-based IFC Exporter focused on complying with IDS requirements.
 
 ### Other features
-- Save and share profiles with profiles.
+- Save and share profile configurations.
 
 ### Supported Revit Versions
 2022, 2023, 2024, and 2025.
