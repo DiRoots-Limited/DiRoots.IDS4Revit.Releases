@@ -7,12 +7,6 @@ nav_order: 2
 # Getting Started
 {: .no_toc }
 
-IDS4Revit is 100% free for personal and commercial usage, regardless of the number of users. 
-Not permitted:
--	Sell/resell
--	make modifications to the software.
-{: .fs-6 .fw-300 }
-
 ## Table of contents
 {: .no_toc .text-delta }
 
