@@ -17,7 +17,7 @@ nav_order: 2
 
 ## Download
 
-Download the [latest version of IDS4Revit]().
+Download the [latest version of IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 
 ## Install
