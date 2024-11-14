@@ -19,7 +19,7 @@ IDS4Revit is an Autodesk Revit plugin that simplifies the work with IDS files. I
 [Provide Feedback](https://diroots.com/contact-us/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=IDS4Revit)
 [Custom Software Development](https://diroots.com/custom-software-development/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=IDS4Revit)
 
-[DiRoots Limited](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=IDS4Revit) 
+[DiRoots Website](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=IDS4Revit) 
 
 🇵🇹 Portugal Office:
 R. da Marcha Gualtariana, 628
