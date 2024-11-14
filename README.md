@@ -1,15 +1,15 @@
-# DiRoots.IDS4Revit.Releases
 
-The IDS4Revit tool simplifies the work with IDS files and helps Revit users to fulfill their IDS-based requirements facilitating an efficient export workflow to IFC.
+
+IDS4Revit is an Autodesk Revit plugin that simplifies the work with IDS files. It makes it easy for Revit users to comply with the Information Delivery Specification (IDS).
 
 ### Main features
-IDS-based Entities Object Inspector: Enables users to inspect entities required by the IDS file within Revit.
-Custom Property and Psets Property Mapping: Allows users to map custom properties directly within Revit.
-IDS-based properties inspector in Revit: Allow users to check and inspect the property restrictions required by the IDS file within Revit.
-IDS-based IFC Export: IFC exporter focused on complying with the IDS requirements.
+- Read IDS files.
+- Inspect and validate the Revit model against the IDS (e.g., check entities and properties required by the IDS file within Revit).
+- Map Revit parameters to IFC properties.
+- IDS-based IFC Exporter focused on complying with IDS requirements.
 
 ### Other features
-Save and share the different configutarions with profiles.
+- Save and share profiles with profiles.
 
 ### Supported Revit Versions
 2022, 2023, 2024, and 2025.
@@ -20,11 +20,6 @@ Save and share the different configutarions with profiles.
 [Custom Software Development](https://diroots.com/custom-software-development/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=IDS4Revit)
 
 [DiRoots Limited](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=IDS4Revit) 
-
-🇬🇧 UK Office:
-Thomas House,
-84 Eccleston Square,
-SW1V 1PX, London
 
 🇵🇹 Portugal Office:
 R. da Marcha Gualtariana, 628
