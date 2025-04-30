@@ -51,11 +51,25 @@ The Map Parameters tab enables users to easily map user-defined properties and p
 ![IDS4Revit Map Properties](../../../assets\images\GIFs\2.3-IDS4Revit-MapProperties.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
+### Creating Revit Parameters from IDS Properties
+
+This feature allows users to create Revit parameters based on the property definitions from the IDS file easily. With just a few clicks, users can quickly generate the necessary parameters without needing to configure them manually. Additionally, users have the flexibility to customize the scope of the created parameters by selecting additional categories, modifying parameter names, or assigning them to specific Revit parameter groups. Once created, the parameters are automatically mapped within IDS4Revit, and the new mapped parameters are available for export.
+
+![IDS4Revit Create Parameters](../../../assets\images\GIFs/Creating Revit Parameters from IDS Properties.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
+
 ### Inspecting IDS file properties
 
 The property inspector tab will display the property entities with restrictions based on the IDS specifications after the properties are mapped.
 
 ![IDS4Revit Inspect Properties](../../../assets\images\GIFs\2.4-IDS4Revit-InspectProperties.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
+
+### Adding Entities and Properties IDS Data to Inspector Tables
+
+Users can now enhance the table views by adding more data related to entities and property specifications defined in the IDS file. This functionality is available directly within the table interface and can be used, for example, to include supplementary information or guidance comments provided in the IDS file.
+
+![IDS4Revit Add Data to Tables](../../../assets\images\GIFs/Adding IDS Data To Table.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
 If the property restriction does not comply with the scope of elements, the user interface will display a red background on the restriction status column. 
