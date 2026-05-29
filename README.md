@@ -12,7 +12,7 @@ IDS4Revit is an Autodesk Revit plugin that simplifies the work with IDS files. I
 - Save and share profile configurations.
 
 ### Supported Revit Versions
-2022, 2023, 2024, 2025, and 2026.
+2022, 2023, 2024, 2025, 2026, and 2027.
 
 ### Useful links
 [Tutorials](https://diroots.com/tutorials/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=IDS4Revit)
