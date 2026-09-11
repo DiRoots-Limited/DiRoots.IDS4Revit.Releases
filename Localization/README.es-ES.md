@@ -1,7 +1,7 @@
 <!-- SHORT_DESCRIPTION_START -->
 Simplifica el trabajo con archivos IDS, permite validar modelos con el IDS y agiliza la exportación IFC basada en IDS.
 <!-- SHORT_DESCRIPTION_END -->
-IDS4Revit es un plugin para Autodesk Revit que simplifica el trabajo con archivos IDS. Facilita a los usuarios de Revit el cumplimiento de la Especificación de Entrega de Información (IDS).
+IDS4Revit es un plugin para Autodesk Revit que simplifica el trabajo con archivos IDS. Facilita a los usuarios de Revit el cumplimiento de la Information Delivery Specification (IDS).
 
 ### Funciones principales
 - Lectura de archivos IDS.
