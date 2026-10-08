@@ -120,7 +120,7 @@ If an IDS requirement defines a required number of elements for the exported IFC
 
 ### Exporting to IFC (IDS-based IFC exporter)
 
-buildingSmart defines Information Delivery Specification (IDS) as a standard for stating BIM information requirements in a way that people and software can read and check. IDS is not limited to IFC in principle, but its applicability and requirements are structured for the IFC schema, which is why openBIM checking and delivery usually target IFC models. The tool helps users export from Revit to IFC according to the loaded IDS file, using the facets listed in [Supported IDS facets](#supported-ids-facets). The tool does not guarantee full compliance with every IDS requirement, because export uses Revit’s standard IFC exporter.
+buildingSmart defines Information Delivery Specification (IDS) as a standard for stating BIM information requirements in a way that software can read and check. IDS is not limited to IFC in principle, but its applicability and requirements are structured for the IFC schema, which is why openBIM checking and delivery usually target IFC models. The tool helps users export from Revit to IFC according to the loaded IDS file, using the facets listed in [Supported IDS facets](#supported-ids-facets). The tool does not guarantee full compliance with every IDS requirement, because export uses Revit’s standard IFC exporter.
 
 #### IFC Export setup Behaviour
 
