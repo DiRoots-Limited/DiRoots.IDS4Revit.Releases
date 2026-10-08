@@ -29,6 +29,19 @@ Users can click the IDS4Revit button in the IDS4Revit tab to open the main windo
 ---
 
 ## Run Pre-validation
+
+### Supported IDS facets
+
+The tool evaluates the following IDS facets during pre-validation, and uses the same facets when exporting to IFC:
+
+- **Entity**
+- **Property**
+- **Attribute**
+- **Material**
+- **Classification**
+
+**PartOf** is not supported. A specification or requirement that uses PartOf shows **Not supported** in the Status column after pre-validation.
+
 ### Selecting the IDS file
 
 In the main window, users can select the IDS file. The tool supports IDS versions 1.0 and above. If the selected file does not conform to the correct IDS schema definition, the tool shows an error message and does not load the IDS file.
@@ -40,7 +53,7 @@ In the main window, users can select the IDS file. The tool supports IDS version
 
 After loading the IDS file, the tool displays on the **Pre-validation** tab the IFC entities required for each IDS specification. The **Mapped Categories** column shows the associated objects based on the selected IFC Export setup mapping settings. Users who need to change mapped categories can update category mapping in Revit’s IFC export setup settings.
 
-The tool uses these mapped Revit objects, together with entity mapping and other facet filters, as the scope of elements for each specification, either from the entire model or the active view based on user input.
+The tool uses these mapped Revit objects, together with entity mapping and the supported facet filters, as the scope of elements for each specification, either from the entire model or the active view based on user input.
 
 ![IDS4Revit Mapped Categories](../../../assets\images\GIFs\2.2-IDS4Revit-MappedCategories.png)  
 <sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
@@ -83,7 +96,7 @@ After pre-validation, users can review each specification and requirement in the
 - **Pass**: the specification or requirement is satisfied for the current scope.
 - **Fail**: at least one check in scope did not meet the IDS restriction.
 - **Not mapped**: required data is not mapped to a Revit parameter (or mapping is incomplete).
-- **Not supported**: the facet or restriction type is not evaluated by the tool in this release.
+- **Not supported**: the row uses the **PartOf** facet, which the tool does not evaluate.
 
 **Result** shows the element scope for that row and how many elements passed or failed, for example `23 passed - 141 failed`.
 
@@ -107,7 +120,7 @@ If an IDS requirement defines a required number of elements for the exported IFC
 
 ### Exporting to IFC (IDS-based IFC exporter)
 
-buildingSmart defines IDS as a set of outlined specifications that are expected to be in the IFC file. The tool helps users export models to IFC based on these IDS requirements, specifically supporting data mapping for property facets and entity identification. Additional facets are not covered at this stage, and the tool does not guarantee full compliance with the IDS requirements because it uses the same Revit IFC exporter.
+buildingSmart defines Information Delivery Specification (IDS) as a standard for stating BIM information requirements in a way that people and software can read and check. IDS is not limited to IFC in principle, but its applicability and requirements are structured for the IFC schema, which is why openBIM checking and delivery usually target IFC models. The tool helps users export from Revit to IFC according to the loaded IDS file, using the facets listed in [Supported IDS facets](#supported-ids-facets). The tool does not guarantee full compliance with every IDS requirement, because export uses Revit’s standard IFC exporter.
 
 #### IFC Export setup Behaviour
 
