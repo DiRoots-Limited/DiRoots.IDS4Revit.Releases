@@ -68,7 +68,7 @@ On the **Map Properties** tab, users can map user-defined properties and predefi
 ![IDS4Revit Map Properties](../../../assets\images\GIFs\2.3-IDS4Revit-MapProperties.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
 
-Users can click **Refresh Parameters** to reload the parameter list when wants to ge the latest parameters from the project. **Import Mapping** is available from Revit 2027 onward and lets users import Revit property mapping into IDS4Revit.
+Users can click **Refresh Parameters** to reload the parameter list when they want to get the latest parameters from the project. **Import Mapping** is available from Revit 2027 onward and lets users import Revit property mapping into IDS4Revit.
 
 ### Creating Revit Parameters from IDS Properties
 
