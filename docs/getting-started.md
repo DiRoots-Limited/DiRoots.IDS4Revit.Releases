@@ -112,9 +112,9 @@ The updater will:
 ### Updater Settings
 
 The following Update Options can be tweaked:
-- activate automatic updates.
-- check for updates frequency (the default value is 2 days). 
-- change the downloads folder.
+- activate automatic updates
+- check for updates frequency (the default value is 2 days)
+- change the downloads folder
 
 ```yaml
 # Pro Tip for Users
