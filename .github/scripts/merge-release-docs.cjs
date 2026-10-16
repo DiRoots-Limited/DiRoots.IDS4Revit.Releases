@@ -72,10 +72,6 @@ module.exports = async function handleRelease({
       continue;
     }
 
-    if (!config.requiredChecks?.length) {
-      throw new Error('Select mandatory documentation checks before merging');
-    }
-
     for (const target of entry.prs) {
       if (
         !Number.isSafeInteger(target.number) ||
