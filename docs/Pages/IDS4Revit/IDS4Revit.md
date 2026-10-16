@@ -156,6 +156,7 @@ The tool can show human-readable text for applicability and requirements in thes
 ![IDS4Revit Human-readable specifications](../../../assets\images\GIFs/2.8-IDS4Revit-HumanReadableSpecifications.gif)  
 
 <sub>Note: the version on the image may not reflect the [latest version of IDS4Revit]().</sub>
+
 ### Table filters
 
 The tool provides filter controls above each table to reduce how many rows are shown. Available filters depend on the tab.
