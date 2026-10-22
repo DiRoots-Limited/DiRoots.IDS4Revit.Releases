@@ -55,9 +55,9 @@ Download the [latest version of IDS4Revit](https://diroots.com/revit-plugins/ids
 
 - Install for all compatible Revit versions:
 
-```bat
-<installer-name>.exe /i // /qn accept_eula=1
-```
+  ```bat
+  <installer-name>.exe /i // /qn accept_eula=1
+  ```
 
 - Disable automatic update checks:
 
