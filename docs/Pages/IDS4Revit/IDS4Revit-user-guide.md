@@ -8,8 +8,8 @@ sitemap: false
 ---
 
 <script>
-  const destination = "{{ '/docs/Pages/IDS4Revit/IDS4Revit.html' | relative_url }}";
+  const destination = "{% link Pages/IDS4Revit/IDS4Revit.md %}";
   window.location.replace(destination + window.location.search + window.location.hash);
 </script>
 
-<p>The IDS4Revit guide has moved. <a href="{{ '/docs/Pages/IDS4Revit/IDS4Revit.html' | relative_url }}">Open the IDS4Revit guide</a>.</p>
+<p>The IDS4Revit guide has moved. <a href="{% link Pages/IDS4Revit/IDS4Revit.md %}">Open the IDS4Revit guide</a>.</p>
