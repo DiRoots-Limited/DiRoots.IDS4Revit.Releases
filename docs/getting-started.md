@@ -61,15 +61,15 @@ Download the [latest version of IDS4Revit](https://diroots.com/revit-plugins/ids
 
 - Disable automatic update checks:
 
-```bat
-<installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
-```
+  ```bat
+  <installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
+  ```
 
 - Exclude specific Revit versions. This example excludes Revit 2022, 2023, and 2024:
 
-```bat
-<installer-name>.exe /i // /qn accept_eula=1 revit2022="" revit2023="" revit2024=""
-```
+  ```bat
+  <installer-name>.exe /i // /qn accept_eula=1 revit2022="" revit2023="" revit2024=""
+  ```
 
 ## Uninstall
 
