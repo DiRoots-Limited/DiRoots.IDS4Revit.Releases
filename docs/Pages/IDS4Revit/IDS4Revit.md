@@ -41,16 +41,16 @@ The tool evaluates the following IDS facets during pre-validation, and uses the 
 - **Material**
 - **Classification**
 
+> **PartOf** is not supported. A specification or requirement that uses it shows **Not supported** in the Status column after pre-validation.
 {: .warning }
-**PartOf** is not supported. A specification or requirement that uses it shows **Not supported** in the Status column after pre-validation.
 
 ### Selecting the IDS file
 
 In the main window, users can select the IDS file. The tool supports IDS versions 1.0 and above. If the selected file does not conform to the correct IDS schema definition, the tool shows an error message and does not load the IDS file.
 
 ![IDS4Revit Select IDS](../../../assets/images/GIFs/2.1-IDS4Revit-SelectIDS.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ### Review Mapped Categories
 
@@ -59,8 +59,8 @@ After loading the IDS file, the tool displays on the **Pre-validation** tab the 
 The tool uses these mapped Revit objects, together with entity mapping and the supported facet filters, as the scope of elements for each specification, either from the entire model or the active view based on user input.
 
 ![IDS4Revit Mapped Categories](../../../assets/images/GIFs/2.2-IDS4Revit-MappedCategories.png)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ### Mapping the properties
 
@@ -70,8 +70,8 @@ On the **Map Properties** tab, users can map user-defined properties and predefi
 - Mapping Predefined IFC Properties: The tool displays predefined IfcProperties from the IFC schema with the ‘Pset_’ suffix. By default, the tool maps these IfcProperties to a property and shows them in the UI as '< Default> - PropName'. Users can modify them manually.
 
 ![IDS4Revit Map Properties](../../../assets/images/GIFs/2.3-IDS4Revit-MapProperties.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 Users can click **Refresh Parameters** to reload the parameter list when they want to get the latest parameters from the project. **Import Mapping** is available from Revit 2027 onward and lets users import Revit property mapping into IDS4Revit.
 
@@ -81,16 +81,16 @@ The tool allows users to create Revit parameters from property definitions in th
 
 
 ![IDS4Revit Create Parameters](../../../assets/images/GIFs/2.3b-IDS4Revit-CreateParameters.gif)
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ### Running Pre-validation
 
 After properties are mapped, the tool displays restrictions on the **Pre-validation** tab based on the IDS specifications. Users can check IDS compliance against the Revit model with **Run Pre-validation**.
 
 ![IDS4Revit Inspect Properties](../../../assets/images/GIFs/2.4-IDS4Revit-InspectProperties.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 If the property restriction does not comply with the scope of elements, the tool displays a red background on the restriction status column.
 
@@ -119,8 +119,8 @@ Users can inspect elements in scope for a specification or requirement in two wa
    - **Create Section Box**: Users can create a section box around those elements.
 
 ![IDS4Revit Select, Isolate and Section Box](../../../assets/images/GIFs/2.4b-IDS4Revit-Select,Isolate,SectionBox.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 If an IDS requirement defines a required number of elements for the exported IFC file and the scope does not meet it, the tool highlights the cell (for example with a red background) and shows a message when export criteria are not met.
 
@@ -130,8 +130,8 @@ If an IDS requirement defines a required number of elements for the exported IFC
 
 buildingSmart defines Information Delivery Specification (IDS) as a standard for stating BIM information requirements in a way that software can read and check. IDS is not limited to IFC in principle, but its applicability and requirements are structured for the IFC schema, which is why openBIM checking and delivery usually target IFC models. The tool helps users export from Revit to IFC according to the loaded IDS file, using the facets listed in [Supported IDS facets](#supported-ids-facets). The exporter uses Revit’s standard IFC exporter.
 
+> IDS4Revit does not guarantee full compliance with every IDS requirement.
 {: .warning }
-IDS4Revit does not guarantee full compliance with every IDS requirement.
 
 #### IFC export setup behavior
 
@@ -143,8 +143,8 @@ The tool allows users to select the IFC export setup based on their requirements
 After setting up configurations and additional parameters, users can export either the active view or the entire model based on their selection. The tool uses Revit’s standard IFC exporter for the export process.
 
 ![IDS4Revit Export to IFC](../../../assets/images/GIFs/2.5.2-IDS4Revit-ExportToIFC.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ## Working with IDS tables
 
@@ -167,8 +167,8 @@ The tool can show human-readable text for applicability and requirements in thes
 
 ![IDS4Revit Human-readable specifications](../../../assets/images/GIFs/2.8-IDS4Revit-HumanReadableSpecifications.gif)  
 
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ### Table filters
 
@@ -187,8 +187,8 @@ The tool provides filter controls above each table to reduce how many rows are s
 
 
 ![IDS4Revit Table Filters](../../../assets/images/GIFs/2.9-IDS4Revit-TableFilters.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ### Expand and collapse requirements
 
@@ -199,24 +199,24 @@ In the **Pre-validation** table, users can show or hide individual requirements 
 **Context menu (single or multiple specifications)**: Users can right-click one or more specification rows and use **Expand requirements** or **Collapse requirements** to show or hide requirements for every selected specification at once. This is useful when users want to tidy a large IDS file or open several specifications for comparison.
 
 ![IDS4Revit Expand Collapse Specifications](../../../assets/images/GIFs/2.6-IDS4Revit-ExpandCollapseSpecifications.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ### Column preferences
 
 Users can open **Column Preferences** on the tab toolbar to add columns from the IDS file. Besides guidance or comments, users can enable **Applicability Details** and **Requirement Details** for human-readable text in the table (see [Human-readable specifications](#human-readable-specifications)).
 
 ![IDS4Revit Add Data to Tables](../../../assets/images/GIFs/2.10-IDS4Revit-ColumnPreferences.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ## Sample Cases
 
 DiRoots provides sample IDS files that support IFC versions IFC 2x3, IFC 4, and IFC 4x3 ADD2. If no IDS file is loaded, users can select a sample file from the interface. These samples can be used for reference to better understand how the tool works.
 
 ![IDS4Revit Sample Cases](../../../assets/images/GIFs/2.7-IDS4Revit-SampleCases.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ---
 
