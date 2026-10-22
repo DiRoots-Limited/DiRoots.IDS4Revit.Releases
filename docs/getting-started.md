@@ -112,8 +112,6 @@ You can change the update check frequency (two days by default) and the download
 > Automatic update checks can't be disabled in the user interface. You can reduce how often they run by setting the check frequency to 365 days.
 {: .new }
 
-> 
-{: .warning }
 
 > IT administrators can change the update check frequency in the updater configuration file.
 {: .new }
