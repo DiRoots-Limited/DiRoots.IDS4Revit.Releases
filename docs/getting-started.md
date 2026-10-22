@@ -30,8 +30,8 @@ Download the [latest version of IDS4Revit](https://diroots.com/revit-plugins/ids
 
 ### Standard Installation
 
+> This method is intended for administrators installing IDS4Revit on one computer.
 {: .note }
-This method is intended for administrators installing IDS4Revit on one computer.
 
 1. Run the IDS4Revit installer.
 
@@ -45,13 +45,13 @@ This method is intended for administrators installing IDS4Revit on one computer.
 
 4. Restart your computer before opening Revit.
 
+   > Restarting is required to complete the installation.
    {: .important }
-   Restarting is required to complete the installation.
 
 ### Silent Installation
 
+> IT administrators can use these commands to deploy IDS4Revit to multiple computers.
 {: .note }
-IT administrators can use these commands to deploy IDS4Revit to multiple computers.
 
 - Install for all compatible Revit versions:
 
@@ -109,14 +109,14 @@ IDS4Revit includes an updater that checks for new versions when Revit closes. It
 
 You can change the update check frequency (two days by default) and the downloads folder.
 
+> Automatic update checks can't be disabled in the user interface. You can reduce how often they run by setting the check frequency to 365 days.
 {: .new }
-Automatic update checks can't be disabled in the user interface. You can reduce how often they run by setting the check frequency to 365 days.
 
+> 
 {: .warning }
-We recommend keeping IDS4Revit up to date. Support is not provided for outdated versions.
 
+> IT administrators can change the update check frequency in the updater configuration file.
 {: .new }
-IT administrators can change the update check frequency in the updater configuration file.
 
 1. Go to `%programdata%\DiRoots.IDS4Revit\Settings`.
 
@@ -124,5 +124,5 @@ IT administrators can change the update check frequency in the updater configura
 
 3. Find `CheckFrequency=2` and change the value, for example, to `365`.
 
+> We recommend keeping IDS4Revit up to date. Support is not provided for outdated versions.
 {: .warning }
-We recommend keeping IDS4Revit up to date. Support is not provided for outdated versions.
