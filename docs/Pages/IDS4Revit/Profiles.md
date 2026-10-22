@@ -33,11 +33,11 @@ IDS4Revit profiles make it easy to save your settings and reuse them later. It i
 4. Click on the "Save" button to create the profile.
 
 ![IDS4Revit Creating profiles](../../../assets/images/GIFs/IDS-SaveProfile.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
+> BIM managers can save profiles in a shared network location so users can import the same settings. See [Importing Profiles](#importing-profiles).
 {: .new }
-BIM managers can save profiles in a shared network location so users can import the same settings. See [Importing Profiles](#importing-profiles).
 
 ## Use the profile as default
 
@@ -61,8 +61,8 @@ IDS4Revit profiles make it easy to import existing profiles to stay compliant wi
 5. Click on the "Create" button to create the profile.
 
 ![IDS4Revit Importing profiles](../../../assets/images/GIFs/IDS-ImportProfile.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 {: .note }
-The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
 
 ## Deleting Profiles
 
