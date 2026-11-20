@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Profiles
-parent: IDS4Revit User Guide
-nav_order: 2
+parent: IDS4Revit
+nav_order: 99
 ---
 
 # Profiles
@@ -27,21 +27,17 @@ The following settings are saved in the profiles.
 
 IDS4Revit profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules (e.g., filename conventions) and share them across the organization.
 
-Steps:
 1. In the window header, click on the save button next to the profiles list.
 2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
 3. Choose if you want to create a profile with the default IDS4Revit settings, with your current settings, or import settings from an existing profile.
 4. Click on the "Save" button to create the profile.
 
-![IDS4Revit Creating profiles](../../../assets\images\GIFs\IDS-SaveProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-IDS4Revit/).</sub>
+![IDS4Revit Creating profiles](../../../assets/images/GIFs/IDS-SaveProfile.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
+{: .note }
 
-```
-Tip for BIM Managers!  
-
-Create the profiles in a network location to allow other users to import them.
-See the "Importing Profiles" section to teach users how to pull profiles from a network location.
-```
+> BIM managers can save profiles in a shared network location so users can import the same settings. See [Importing Profiles](#importing-profiles).
+{: .new }
 
 ## Use the profile as default
 
@@ -58,21 +54,20 @@ The profile will now be immediately visible to users.
 
 IDS4Revit profiles make it easy to import existing profiles to stay compliant with your company standards (e.g., profiles in a network location).
 
-Steps:
 1. In the window header, click on the plus (+) button next to the profiles list.
 2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
 3. Choose 'Import from file' to import settings from an existing profile
-4. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
+4. Use the Windows File Explorer to find the profile (e.g., in a shared folder, network location, or local computer)
 5. Click on the "Create" button to create the profile.
 
-![IDS4Revit Importing profiles](../../../assets\images\GIFs\IDS-ImportProfile.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of IDS4Revit](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-IDS4Revit/).</sub>
+![IDS4Revit Importing profiles](../../../assets/images/GIFs/IDS-ImportProfile.gif)  
+> The image may show an earlier version of [IDS4Revit](https://diroots.com/revit-plugins/ids-for-revit/).
+{: .note }
 
 ## Deleting Profiles
 
-Steps:
-1. In the window header, select the from the dropdown the profile you want to delete
-2. Click on the dustbin icon next to the profiles list.
+1. In the window header, select the profile you want to delete from the drop-down list
+2. Click on the delete icon next to the profiles list.
 3. Confirm.
 
-![IDS4Revit Deleting profiles](../../../assets\images\GIFs\IDS-DeleteProfile.gif)  
+![IDS4Revit Deleting profiles](../../../assets/images/GIFs/IDS-DeleteProfile.gif)  

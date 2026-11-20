@@ -2,7 +2,7 @@
 layout: default
 title: About
 nav_order: 1
-description: "IDS4Revit User Guide."
+description: "IDS4Revit for Autodesk Revit."
 permalink: /
 ---
 
@@ -13,6 +13,7 @@ permalink: /
 The IDS4Revit tool simplifies working with IDS files in Revit by helping users comply with their IDS-based specifications. Additionally, it helps users in the IFC export process, eliminating the need for complex, time-consuming, and error-prone manual configurations. It allows users to effortlessly pre-validate IDS compliance before exporting and configure the mapped necessary data, facilitating an efficient data compliance and export workflow without multiple export-and-fix cycles. This tool is essential for users who need to streamline their IDS-based work in Revit.
 
 ## Core Features
+{: .no_toc }
 
 - IDS-based Entities Object Inspector: Enables users to inspect entities required by the IDS file within Revit.
 - Custom Property and Psets Property Mapping: Allows users to map custom properties directly within Revit.
